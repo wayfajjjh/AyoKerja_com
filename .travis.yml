@@ -1,13 +1,13 @@
 language: php
 
 php:
-  "7.0"
+  "5.4"
 
 script:phpunit tes/tes.php
  
 matrix:
 allow_failures:
-php:"7.0"
+php:"5.4"
 
 fast_finish: true
 
